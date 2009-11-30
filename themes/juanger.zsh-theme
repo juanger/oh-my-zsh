@@ -1,3 +1,4 @@
+# Based in Robby Russell's theme
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p $(ssh_info)%{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="git:(%{$fg[red]%}"
