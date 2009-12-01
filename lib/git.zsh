@@ -23,3 +23,26 @@ parse_git_dirty () {
   fi
 }
 
+update-all() {
+  for x in `rls`
+  do 
+    (
+    if [[ -d $x ]]; then
+      echo "\e[34m$x\e[0m"
+      cd $x; git pull; 
+    fi
+    ) 
+  done
+}
+
+changed() {
+  for x in `rls`
+  do
+    (
+    if [[ -d $x ]]; then
+      echo "\e[34m$x\e[0m"
+      cd $x; git status;
+    fi
+    )
+  done
+}
