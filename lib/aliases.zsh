@@ -38,6 +38,7 @@ alias gcp='git cherry-pick'
 
 alias history='fc -l 1'
 
+alias rls="/bin/ls"
 alias ls='ls -F'
 alias ll='ls -alr'
 alias l='ls'
@@ -56,5 +57,5 @@ alias ett='mate app config lib db public spec test Rakefile Capfile Todo &'
 alias etp='mate app config lib db public spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 alias etts='mate app config lib db public script spec test vendor/plugins vendor/gems Rakefile Capfile Todo &'
 
-
+alias ssh="ssh -A"
 
