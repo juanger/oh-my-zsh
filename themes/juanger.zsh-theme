@@ -1,6 +1,6 @@
 # Based on Robby Russell's theme
 ARROW="%{$fg_bold[red]%}➜"
-DIR="%{$fg[cyan]%}%c"
+DIR="%{$fg[cyan]%}%c%{$reset_color%}"
 
 PROMPT='$ARROW $(ssh_info)$DIR $(git_prompt_info)$(git_prompt_ahead) '
 
